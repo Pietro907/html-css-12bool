@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.debug, [class*="col-"] {
+/* .debug, [class*="col-"] {
     background-color: aquamarine;
     border: 1px dashed;
-}
+} */
 .container_main {
     max-width: 1920px;
     margin: 1rem 0;
@@ -23,79 +23,80 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
+    margin: 0.1rem;
     background-color: rgb(40, 131, 249);
     color: #ffffff;
 }
 .col-1 {
-    width: calc(100% / 12 * 1);
+    width: calc(100% / 12 * 1 - 0.2rem);
 }
 .col-2 {
-    width: calc(100% / 12 * 2);
+    width: calc(100% / 12 * 2 - 0.2rem);
 }
 .col-3 {
-    width: calc(100% / 12 * 3);
+    width: calc(100% / 12 * 3 - 0.2rem);
 }
 .col-4 {
-    width: calc(100% / 12 * 4);
+    width: calc(100% / 12 * 4 - 0.2rem);
 }
 .col-5 {
-    width: calc(100% / 12 * 5);
+    width: calc(100% / 12 * 5 - 0.2rem);
 }
 .col-6 {
-    width: calc(100% / 12 * 6);
+    width: calc(100% / 12 * 6 - 0.2rem);
 }
 .col-7 {
-    width: calc(100% / 12 * 7);
+    width: calc(100% / 12 * 7 - 0.2rem);
 }
 .col-8 {
-    width: calc(100% / 12 * 8);
+    width: calc(100% / 12 * 8 - 0.2rem);
 }
 .col-9 {
-    width: calc(100% / 12 * 9);
+    width: calc(100% / 12 * 9 - 0.2rem);
 }
 .col-10 {
-    width: calc(100% / 12 * 10);
+    width: calc(100% / 12 * 10 - 0.2rem);
 }
 .col-11 {
-    width: calc(100% / 12 * 11);
+    width: calc(100% / 12 * 11 - 0.2rem);
 }
 .col-12 {
     width: 100%;
 }
 .offset-col-1 {
-    margin-left: calc(100% / 12 * 1);
+    margin-left: calc(100% / 12 * 11);
 }
 .offset-col-2 {
-    margin-left: calc(100% / 12 * 2);
+    margin-left: calc(100% / 12 * 10);
 }
 .offset-col-3 {
-    margin-left: calc(100% / 12 * 3);
+    margin-left: calc(100% / 12 * 9);
 }
 .offset-col-4 {
-    margin-left: calc(100% / 12 * 4);
+    margin-left: calc(100% / 12 * 8);
 }
 .offset-col-5 {
-    margin-left: calc(100% / 12 * 5);
+    margin-left: calc(100% / 12 * 7);
 }
 .offset-col-6 {
     margin-left: calc(100% / 12 * 6);
 }
 .offset-col-7 {
-    margin-left: calc(100% / 12 * 7);
+    margin-left: calc(100% / 12 * 5);
 }
 .offset-col-8 {
-    margin-left: calc(100% / 12 * 8);
+    margin-left: calc(100% / 12 * 4);
 }
 .offset-col-9 {
-    margin-left: calc(100% / 12 * 9);
+    margin-left: calc(100% / 12 * 3);
 }
-.coffset-ol-m0 {
-    margin-left: calc(100% / 12 * 10);
+.offset-col-10 {
+    margin-left: calc(100% / 12 * 2);
 }
-.coffset-ol-m1 {
-    margin-left: calc(100% / 12 * 11);
+.offset-col-11 {
+    margin-left: calc(100% / 12 * 1);
 }
-.coffset-ol-m2 {
+.offset-col-12 {
     margin-left: 100%;
 }
 
