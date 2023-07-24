@@ -106,6 +106,8 @@
 
 .nested {
     background-color: rgba(105, 241, 118, 0.911);
+    margin: 0 0.2rem;
+    width: calc(100% - 0.4rem);
 }
 
 /* #endregion color*/
