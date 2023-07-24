@@ -62,6 +62,42 @@
 .col-12 {
     width: 100%;
 }
+.offset-col-1 {
+    margin-left: calc(100% / 12 * 1);
+}
+.offset-col-2 {
+    margin-left: calc(100% / 12 * 2);
+}
+.offset-col-3 {
+    margin-left: calc(100% / 12 * 3);
+}
+.offset-col-4 {
+    margin-left: calc(100% / 12 * 4);
+}
+.offset-col-5 {
+    margin-left: calc(100% / 12 * 5);
+}
+.offset-col-6 {
+    margin-left: calc(100% / 12 * 6);
+}
+.offset-col-7 {
+    margin-left: calc(100% / 12 * 7);
+}
+.offset-col-8 {
+    margin-left: calc(100% / 12 * 8);
+}
+.offset-col-9 {
+    margin-left: calc(100% / 12 * 9);
+}
+.coffset-ol-m0 {
+    margin-left: calc(100% / 12 * 10);
+}
+.coffset-ol-m1 {
+    margin-left: calc(100% / 12 * 11);
+}
+.coffset-ol-m2 {
+    margin-left: 100%;
+}
 
 /* #endregion col*/
 
